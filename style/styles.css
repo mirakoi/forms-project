@@ -13,6 +13,7 @@ body {
 
 .container {
   display: flex;
+  position: absolute;
   padding-left: 50px;
   padding-top: 50px;
   position: absolute;
@@ -92,6 +93,9 @@ form {
 
 .duck {
   position: relative;
+  left: 350px;
+  bottom: 400px;
+
 }
 
 p {
