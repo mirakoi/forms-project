@@ -4,24 +4,96 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-style: none;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .container {
+  display: flex;
+  padding-left: 50px;
+  padding-top: 50px;
+  position: absolute;
   width: 954px;
   height: 594px;
   background: linear-gradient(
     to right,
-    red 0%,
-    red 60%,
+    #be0909 0%,
+    #be0909 60%,
     orange 60%,
     orange 100%
   );
 }
 
+input[type="text"],
+select {
+  width: 100%;
+  height: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-bottom: 2px solid red;
+  background-color: #be0909;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  border-bottom: 1px solid red;
+}
+
+input[type="button"] {
+  background-color: #468189;
+  position: absolute;
+  background: #468189;
+  color: white;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 3px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 40px;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  padding: 13px 20px;
+  cursor: pointer;
+  margin: 0px 0px 0px 100px;
+}
+
+form {
+  font-family: "Roboto";
+  font-size: 18px;
+  color: #feffff;
+  letter-spacing: 3px;
+}
+
+.textarea {
+  font-family: "Roboto";
+  background-color: #be0909;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.3em;
+  border-bottom: 1px solid red;
+}
+
+.email {
+  font-family: "Roboto";
+  background-color: #be0909;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.3em;
+  color: #feffff;
+  border-bottom: 1px solid red;
+}
+
 .duck {
-    position: relative;
-    left: 320px;
-    top: 70px;
-    right: 0px;
-    bottom: 0px;
+  position: relative;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
 }
